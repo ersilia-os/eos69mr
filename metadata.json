@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos69mr",
+    "Slug": "reinvent4-linkinvent",
+    "Status": "In progress",
+    "Title": "REINVENT 4 LinkInvent",
+    "Description": "This model will split the input molecule into two fragments and then attempt to join these fragments using different linkers or scaffolds.",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,8 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": "Similarity",
+    "Publication": "https://chemrxiv.org/engage/chemrxiv/article-details/65463cafc573f893f1cae33a",
+    "Source Code": "https://github.com/MolecularAI/REINVENT4",
+    "License": "Apache-2.0"
 }
