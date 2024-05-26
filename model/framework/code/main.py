@@ -22,7 +22,7 @@ is_debug = sys.argv[3] == "True" if len(sys.argv) > 3 else False
 # Only write if `is_debug` is True.
 log_file = output_file + ".json"
 
-batch_size = 10
+batch_size = 1000
 num_input_smiles = 0
 input_smiles = None
 
