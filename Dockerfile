@@ -13,7 +13,7 @@ RUN pip install networkx==3.3
 RUN git clone --branch v4.2.6 --single-branch https://github.com/MolecularAI/REINVENT4
 
 # Install the package using pip
-RUN pip install ./reinvent4 --extra-index-url=https://pypi.anaconda.org/OpenEye/simple --extra-index-url=https://download.pytorch.org/whl/cu113
+RUN pip install ./REINVENT4 --extra-index-url=https://pypi.anaconda.org/OpenEye/simple --extra-index-url=https://download.pytorch.org/whl/cu113
 
 WORKDIR /repo
 COPY . /repo
