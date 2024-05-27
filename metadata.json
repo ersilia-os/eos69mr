@@ -4,14 +4,22 @@
     "Status": "In progress",
     "Title": "REINVENT 4 LinkInvent",
     "Description": "This model will split the input molecule into two fragments and then attempt to join these fragments using different linkers or scaffolds.",
-    "Mode": "",
-    "Task": [],
-    "Input": [],
-    "Input Shape": "",
-    "Output": [],
-    "Output Type": [],
-    "Output Shape": "",
-    "Interpretation": "",
+    "Mode": "Pretrained",
+    "Task": [
+        "Generative"
+    ],
+    "Input": [
+        "Compound"
+    ],
+    "Input Shape": "Single",
+    "Output": [
+        "Compound"
+    ],
+    "Output Type": [
+        "String"
+    ],
+    "Output Shape": "List",
+    "Interpretation": "This model will split the input molecule into two fragments and then attempt to join these fragments using different linkers or scaffolds.",
     "Tag": "Similarity",
     "Publication": "https://chemrxiv.org/engage/chemrxiv/article-details/65463cafc573f893f1cae33a",
     "Source Code": "https://github.com/MolecularAI/REINVENT4",
